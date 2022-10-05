@@ -3,7 +3,7 @@ A simple web app that retrieves random quotes from an API to allow users a momen
 
 **Link to project:** IN PROGRESS
 
-![landing page](#)
+![landing page](https://raw.githubusercontent.com/diathekez/quote-generator-api/master/public/quoth-the-raven-screenshot.png)
 
 ## How It's Made
 
@@ -29,6 +29,7 @@ Take a look at these couple examples that I have in my own portfolio:
 **For Blossom:** https://github.com/diathekez/for-blossom-api
 
 **To-do List:** https://github.com/diathekez/todo-list-app
+
 ---
 
 # Install
