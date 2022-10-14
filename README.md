@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# These Are the Droids You Are Looking For
+A simple web app that retrieves biographical information of any character in the Star Wars universe.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Link to project:** IN PROGRESS
 
-## Available Scripts
+![landing page](#)
 
-In the project directory, you can run:
+## How It's Made
 
-### `npm start`
+**Tech used:** HTML, CSS, JavaScript, React, Express, Node.js, Tailwind (with DaisyUI)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Important:** You must have [Node.js](https://nodejs.org/en/download/) installed. Both [Tailwind](https://tailwindcss.com/docs/installation) and [DaisyUI](https://daisyui.com/docs/install/) have already been configured in the app, but I recommend checking out the documentation if you're new to using CSS frameworks.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I wanted this to be a basic, fast-loading app. So I bootstrapped it with [Create React App](https://github.com/facebook/create-react-app). The second thing to decide was the styling. Tailwind is a very popular option, so I went with DaisyUI because of the basic and elegant components it offers. For the back-end, nothing fancy, just Node.
 
-### `npm test`
+## Optimizations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+IN PROGRESS
 
-### `npm run build`
+## Lessons Learned
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+IN PROGRESS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Examples:
+Take a look at these couple examples that I have in my own portfolio:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Precrastinator:** https://github.com/diathekez/precrastinator
 
-### `npm run eject`
+**For Blossom:** https://github.com/diathekez/for-blossom-api
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**To-do List:** https://github.com/diathekez/todo-list-app
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Things to add
 
-## Learn More
+- Create a `.env` file in config folder and add the following as `key = value`
+  - PORT = 3000
+  - DB_STRING = `your database URI`
+  - CLOUD_NAME = `your cloudinary cloud name`
+  - API_KEY = `your cloudinary api key`
+  - API_SECRET = `your cloudinary api secret`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm start`
