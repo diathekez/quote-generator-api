@@ -66,7 +66,7 @@ function App() {
           <div className="hero-body">
             <div className="container has-text-centered">
             {/* The random quote shows up here */}
-            <h1 className="card card-content is-centered title small-box">{quote}</h1>
+            <h1 className="card card-content is-centered title small-box">"{quote}"</h1>
             {/* This button generates a random quote */}
             <button className="button is-danger off-white" onClick={getQuote}>Generate Quote</button>
             </div>
