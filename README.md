@@ -15,7 +15,7 @@ I wanted this to be a basic, fast-loading app. So I bootstrapped it with [Create
 
 ## Optimizations
 
-IN PROGRESS
+Because this was supposed to originally be just one section with the API results, I sort of just stuck the code in the App.js file along with the components in a rather disorganized way. In the future, I'll tidy up the code.
 
 ## Lessons Learned
 
