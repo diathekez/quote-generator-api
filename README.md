@@ -1,7 +1,7 @@
 # Quoth the Raven
 A simple web app that retrieves random quotes from an API to allow users a moment of reflection.
 
-**Link to project:** IN PROGRESS
+**Link to project:** https://quote-generator-api.vercel.app/
 
 ![landing page](https://raw.githubusercontent.com/diathekez/quote-generator-api/master/public/quoth-the-raven-screenshot.png)
 
