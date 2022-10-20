@@ -1,8 +1,6 @@
 import './App.css';
-import Header from './Header'
 import { useEffect, useState } from 'react'
 import axios from 'axios';
-import { render } from '@testing-library/react';
 
 
 // This fetches the API and grabs the info from the array
@@ -24,12 +22,12 @@ function App() {
 
   return (
     <div className="App">
-        <section className="hero is-dark is-fullheight">
+        <section className="hero is-dark is-fullheight background-color">
           <div className="hero-head">
             <header className="navbar" id="navbar-color">
               <div className="container">
                 <div className="navbar-brand">
-                  <a className="navbar-item">
+                  <a className="navbar-item" href="https://en.wikipedia.org/wiki/The_Raven">
                     Quoth the Raven
                   </a>
                   <span className="navbar-burger" data-target="navbarMenuHeroC">
@@ -43,17 +41,11 @@ function App() {
                     <a className="navbar-item is-active">
                       Home
                     </a>
-                    <a className="navbar-item">
+                    <a className="navbar-item" href="https://github.com/lukePeavey/quotable">
                       API
                     </a>
-                    <a className="navbar-item">
-                      About
-                    </a>
                     <span className="navbar-item">
-                      <a className="button is-success is-inverted">
-                        <span className="icon">
-                          <i className="fab fa-github"></i>
-                        </span>
+                      <a className="button is-success is-inverted" href="https://github.com/diathekez/quote-generator-api">
                         <span>Github Repo</span>
                       </a>
                     </span>
@@ -72,14 +64,22 @@ function App() {
             </div>
           </div>
 
+
+        </section>
+
+        <footer class="footer">
           <div className="hero-body">
             <div className="container has-text-centered">
               <p className="title">
-                Please take five minutes of your time to think.
+                T.H.I.N.K.
               </p>
               <br></br>
               <p className="subtitle">
-                Is what I'm thinking right now true?
+                Take a few seconds to reflect on the quote above and also on what you're currently thinking. Then ask yourself the following:
+              </p>
+              <br></br>
+              <p className="subtitle">
+                Is it true?
               </p>
               <p className="subtitle">
                 Is it helpful?
@@ -96,7 +96,13 @@ function App() {
             </div>
           </div>
 
-        </section>
+
+          <div class="content has-text-centered">
+            <p>
+              <strong>© 2022 <a href="https://bryangranados.com/">Bryan Granados</a></strong>
+            </p>
+          </div>
+        </footer>
 
     </div>
     

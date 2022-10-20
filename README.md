@@ -1,5 +1,5 @@
-# These Are the Droids You Are Looking For
-A simple web app that retrieves biographical information of any character in the Star Wars universe.
+# Quoth the Raven
+A simple web app that retrieves random quotes from an API to allow users a moment of reflection.
 
 **Link to project:** IN PROGRESS
 
@@ -7,11 +7,11 @@ A simple web app that retrieves biographical information of any character in the
 
 ## How It's Made
 
-**Tech used:** HTML, CSS, JavaScript, React, Express, Node.js, Tailwind (with DaisyUI)
+**Tech used:** HTML, CSS, JavaScript, React, Express, Node.js, Bulma
 
-**Important:** You must have [Node.js](https://nodejs.org/en/download/) installed. Both [Tailwind](https://tailwindcss.com/docs/installation) and [DaisyUI](https://daisyui.com/docs/install/) have already been configured in the app, but I recommend checking out the documentation if you're new to using CSS frameworks.
+**Important:** You must have [Node.js](https://nodejs.org/en/download/) installed. I used [Bulma](https://bulma.io/), so I recommend checking out the documentation if you're new to using CSS frameworks.
 
-I wanted this to be a basic, fast-loading app. So I bootstrapped it with [Create React App](https://github.com/facebook/create-react-app). The second thing to decide was the styling. Tailwind is a very popular option, so I went with DaisyUI because of the basic and elegant components it offers. For the back-end, nothing fancy, just Node.
+This app is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and the API comes from [this](https://github.com/lukePeavey/quotable) Github repo.
 
 ## Optimizations
 
@@ -19,7 +19,7 @@ Because this was supposed to originally be just one section with the API results
 
 ## Lessons Learned
 
-IN PROGRESS
+This is a simple project that I did to learn how to consume APIs with React using Axios. I also learned a bit about useEffect and useState. Basic stuff.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
@@ -35,15 +35,8 @@ Take a look at these couple examples that I have in my own portfolio:
 
 `npm install`
 
-# Things to add
-
-- Create a `.env` file in config folder and add the following as `key = value`
-  - PORT = 3000
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
-
 # Run
 
 `npm start`
+
+- Default is port 3000.
